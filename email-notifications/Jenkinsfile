@@ -2,7 +2,6 @@ node {
 
   // config 
   def to = emailextrecipients([
-          [$class: 'onkar.ojha77@gmail.com'],
           [$class: 'RequesterRecipientProvider']
   ])
 
